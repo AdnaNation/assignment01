@@ -14,6 +14,7 @@ body {
     width: 1320px;
     height: 600px;
     background-image: url('../images/Banner\ Image.png');
+    opacity: 80%;
     background-repeat: no-repeat;
     border-radius: 16px;
     padding: 127px 344px;
@@ -28,15 +29,15 @@ body {
 }
 
 .new-year-wish {
-    color: #c0ff03;
+    color: #FFF;
     font-family: Merriweather;
     font-size: 32px;
-    font-weight: 400;
-    margin-bottom: 0px;
+    font-weight: 900;
+    margin-bottom: 20px;
 }
 
 .banner-title {
-    color: #c0ff03;
+    color: #FFF;
     font-family: Merriweather;
     font-size: 72px;
     font-weight: 900;
@@ -257,4 +258,71 @@ body {
     font-size: 20px;
     font-weight: 400;
     margin-bottom: 20px;
+}
+
+/* fifth section */
+.fifth-section {
+    width: 1320px;
+    margin-top: 120px;
+}
+
+.fifth-section * {
+    margin: 0;
+}
+
+.holidays-discount {
+    width: 1068px;
+    text-align: center;
+    margin-left: 126px;
+    margin-bottom: 70px;
+}
+
+.discount-caption {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.discount-title {
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+#holidays {
+    color: #F00;
+}
+
+#sale {
+    color: #070211;
+}
+
+.discount-description {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.gift-package {
+    display: flex;
+}
+
+#gift-box {
+    width: 433px;
+    height: 480px;
+}
+
+#seal-of-discount {
+    width: 206px;
+    height: 206px;
+}
+
+#happy-girl {
+    width: 429px;
+    height: 433px;
 }
