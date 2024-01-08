@@ -1,11 +1,11 @@
 /* Full body styles */
 body {
 
-    /* margin: 0 auto; */
-    padding: 50px 140px;
+    margin: 0 auto;
+    padding: 30px 140px;
     max-width: 1600px;
-    background-color: whitesmoke;
-    ;
+    background-color: #FFF;
+
 }
 
 /* header section */
@@ -51,7 +51,6 @@ body {
     font-family: Inter;
     position: relative;
     bottom: 200px;
-
 }
 
 #discount {
@@ -81,12 +80,21 @@ body {
     height: 500px;
 }
 
+/* #new-year-pic:hover {
+
+    border-radius: 60%;
+    box-shadow: rgb(56, 56, 119);
+} */
+
 /* 2nd section styles */
 .second-section {
     width: 1320px;
     height: 600px;
     display: flex;
     align-items: center;
+    gap: 100px;
+    margin-top: 0;
+    padding-top: 0px;
     padding-left: 126px;
     background-image: url('../images/Vectorrr.png');
     background-repeat: no-repeat;
@@ -103,6 +111,7 @@ body {
     font-family: Merriweather;
     font-size: 64px;
     font-weight: 900;
+    letter-spacing: 5px;
 }
 
 #welcome-description {
@@ -125,4 +134,46 @@ body {
 .second-section img {
     width: 320px;
     height: 464px;
+}
+
+/* third section styles */
+.third-section {
+    width: 1320px;
+    height: 440px;
+    background-image: linear-gradient(180deg, rgba(246, 246, 251, 0.222), rgba(135, 207, 235, 0.368));
+    border-radius: 10px;
+    margin-top: 120px;
+    padding-top: 100px;
+
+}
+
+.third-section-text {
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    text-align: center;
+}
+
+.third-section-title {
+    color: #F00;
+    margin-bottom: 100px;
+}
+
+.third-section-value {
+    color: #070211;
+    margin-bottom: 100px;
+}
+
+.btn-no-2 {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    border: 0;
+    border-radius: 8px;
+    background: #F00;
+    padding: 15px 32px;
+
 }
