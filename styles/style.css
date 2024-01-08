@@ -1,0 +1,42 @@
+/* Full body styles */
+body {
+
+    /* margin: 0 auto; */
+    padding: 50px 140px;
+    max-width: 1600px;
+    background-color: whitesmoke;
+    ;
+}
+
+/* header section */
+.banner {
+    width: 1320px;
+    height: 600px;
+    background-image: url('../images/Banner\ Image.png');
+    background-repeat: no-repeat;
+    padding: 127px 344px;
+}
+
+
+.banner-titles {
+    text-align: center;
+    max-width: 630px;
+
+}
+
+.new-year-wish {
+    color: #c0ff03;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+
+.banner-title {
+    color: #c0ff03;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    margin-top: 0;
+
+}
