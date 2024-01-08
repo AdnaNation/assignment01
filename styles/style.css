@@ -1,8 +1,12 @@
 /* Full body styles */
+html {
+    position: relative;
+    left: 20%;
+}
 
 body {
     padding: 30px 140px;
-    width: 1600px;
+    width: 1320px;
     background-color: #FFF;
 }
 
