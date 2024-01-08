@@ -15,6 +15,7 @@ body {
     height: 600px;
     background-image: url('../images/Banner\ Image.png');
     background-repeat: no-repeat;
+    border-radius: 16px;
     padding: 127px 344px;
 
 }
@@ -176,4 +177,84 @@ body {
     background: #F00;
     padding: 15px 32px;
 
+}
+
+/* fourt section style */
+.fourth-section {
+    width: 1320px;
+    height: 463px;
+    display: flex;
+    align-items: center;
+    gap: 90px;
+    margin-top: 120px;
+}
+
+.best-offer {
+    width: 393px;
+}
+
+.best-offer * {
+    margin: 0;
+}
+
+.best-offer-heading {
+    color: #F00;
+    text-align: left;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.best-offer-title {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.best-offer-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.best-offer-add-logo {
+    width: 463px;
+}
+
+.best-offer-add-logo img {
+    width: 365px;
+    height: 365px;
+    padding: 49px;
+    border-radius: 50%;
+    border: 15px solid #F00;
+
+
+}
+
+.new-year-greeting {
+    width: 276px;
+}
+
+.new-year-greeting * {
+    margin: 0;
+}
+
+.year {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.greeting-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
 }
