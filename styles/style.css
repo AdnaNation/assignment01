@@ -382,6 +382,13 @@ body {
     margin-top: 40px;
 }
 
+.products-row1,
+.products-row2 {
+    display: flex;
+}
+
+
+
 .product-pics img {
     margin-bottom: 15px;
     margin-right: 15px;
