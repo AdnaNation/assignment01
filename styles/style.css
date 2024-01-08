@@ -520,3 +520,8 @@ footer hr {
     justify-content: space-between;
     padding: 0 140px;
 }
+
+.footer a {
+    text-decoration: none;
+    color: #FFF;
+}
