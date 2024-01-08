@@ -14,7 +14,6 @@ body {
     width: 1320px;
     height: 600px;
     background-image: url('../images/Banner\ Image.png');
-    opacity: 80%;
     background-repeat: no-repeat;
     border-radius: 16px;
     padding: 127px 344px;
@@ -310,19 +309,34 @@ body {
 
 .gift-package {
     display: flex;
+    position: relative;
+    top: 47px;
+    left: 207px;
 }
 
 #gift-box {
-    width: 433px;
+    width: 450px;
     height: 480px;
+    position: relative;
+    top: 120px;
+    /* opacity: 90%; */
 }
 
 #seal-of-discount {
-    width: 206px;
-    height: 206px;
+    width: 230px;
+    height: 230px;
+    padding: 2px;
+    position: relative;
+    left: 120px;
+    top: 120px;
+
 }
 
 #happy-girl {
     width: 429px;
     height: 433px;
+}
+
+#red-part {
+    margin-top: 0;
 }
